@@ -1,0 +1,9 @@
+import objetos.*
+describe "tests de futbolito" {
+
+    test "buscar pelota" {
+        assert.notEquals(pelota.position(), lionel.position())
+        lionel.buscar()
+        assert.equals(pelota.position(), lionel.position())
+    }
+}
